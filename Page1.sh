@@ -1,7 +1,12 @@
-read -p "Who are human" you
+read -p "Who are human answer either yes or no" you
 if [ "$you" = "Yes" ] || [ "$you" = "yes" ]; then
 echo "good then"
 elif [ "$you" = "No"] || [ "$you" = "no" ]; then
 echo "opps you are not welcome"
-read -p "Are you a graduate"
-if [ "$Answer" = "Yes" ] || [ "$Answer" = "yes" ]
+else "i don't know who you are"
+read -p "Are you a graduate" me
+if [ "$me" = "Yes" ] || [ "$me" = "yes" ]; then
+echo "good then"
+elif [ "$me" = "No"] || [ "$me" = "no" ]; then
+echo "opps you are not welcome"
+else "i don't know who you are"
