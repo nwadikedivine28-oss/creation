@@ -9,7 +9,7 @@ fi
 read -p "Are you a graduate: " me
 if [ "$me" = "Yes" ] || [ "$me" = "yes" ]; then
 echo "good then"
-elif [ "$me" = "No"] || [ "$me" = "no" ]; then
+elif [ "$me" = "No" ] || [ "$me" = "no" ]; then
 echo "opps you are not a graduate"
 else echo "can't validate"
 fi
